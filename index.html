@@ -18,7 +18,7 @@
             max-height: 0; 
             overflow: hidden; 
             transition: all 0.3s ease; 
-            font-size: 1.25rem; 
+            font-size: 1rem; 
             line-height: 1.7; 
             font-weight: 500; 
             color: #3E2723;
@@ -272,7 +272,7 @@
                     <div class="bg-[#5D4037] text-white rounded-3xl p-5 shadow-md relative text-center border border-white/10">
                         <div onclick="if('${item.link || ''}') window.open('${item.link}', '_blank')" class="active:opacity-50">
                             <h4 class="font-bold text-sm leading-snug line-clamp-2">${item.title}</h4>
-                            ${item.tag ? `<p class="text-[8px] opacity-60 mt-2 uppercase tracking-tighter">${item.tag}</p>` : ''}
+                            ${item.tag ? `<p class="text-[12px] opacity-60 mt-2 uppercase tracking-tighter">${item.tag}</p>` : ''}
                         </div>
                         <button onclick="window.removeItem('${item.id}', 'wish')" class="absolute top-2 right-2 text-white/30 text-[10px] p-1"><i class="fa-solid fa-trash"></i></button>
                     </div>
